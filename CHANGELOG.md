@@ -9,6 +9,9 @@ The followings are improved from the previous version:
 
 The followings are improved from the previous version:
 
+* Change the validator simulators from ``process`` to ``fair+ process``.
+* Change the index of ``blockReceiver`` from ``validators`` to ``validators \X possibleHeight``.
+	* It is for furture version where multiple proposers are applied.
 
 ## LBFT3
 
