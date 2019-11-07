@@ -40,6 +40,7 @@ The followings are improved from the previous version:
 It is the basic implementation of LBFT 2.0, in which we set 
 
 * 4 validators.
+* 1 proposer.
 * 5 states (two impeachment states will not be reached).
 * Arrays storing signatures of each validator.
 * The ``fsm`` function is written in ``macro``, and all state transition is implemented by ``either`` statement.
