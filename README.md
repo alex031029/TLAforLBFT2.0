@@ -9,6 +9,12 @@ The latest version (i.e., the one with largest *i*) may not be executed without 
 In priciple, All older version should terminate without raising any error. 
 However, an older version indicates it must contain some lack of consideration or logic. 
 
+Current settings:
+
+* 4 validators (i.e., f = 1)
+* 1 proposer
+* No impeachment
+
 A CHANGELOG is updated on explaining the difference between versions.
 
 Shi Yanchen
