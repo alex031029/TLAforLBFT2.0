@@ -1,6 +1,6 @@
 # TLA+ for LBFT 2.0 Changelog
 
-## LBFT5
+## LBFT5.tla
 
 The followings are improved from the previous version:
 
@@ -10,7 +10,7 @@ The followings are improved from the previous version:
 * The implementation of certificates are changed to use ``Quorum``s. 
 
 
-## LBFT4
+## LBFT4.tla
 
 The followings are improved from the previous version:
 
@@ -18,7 +18,7 @@ The followings are improved from the previous version:
 * Change the index of ``blockReceiver`` from ``validators`` to ``validators \X possibleHeight``.
 	* It is for furture versions where multiple proposers are applied.
 
-## LBFT3
+## LBFT3.tla
 
 The followings are improved from the previous version:
 
@@ -28,14 +28,14 @@ The followings are improved from the previous version:
 * A process is implemented to simulate the FSM, which can be executed non-deterministically among four validators.
 * A process is implemented to simulate the proposer broadcasting its new block.
 
-## LBFT2
+## LBFT2.tla
 
 The followings are improved from the previous version:
 
 * The ``fsm`` function is written in ``procedure`` instead of ``macro``.
 * A ``broadcast`` procedure is introduced to invoke ``fsm``, although the invocations are done in order maunally. 
 
-## LBFT1
+## LBFT.tla
 
 It is the basic implementation of LBFT 2.0, in which we set 
 
