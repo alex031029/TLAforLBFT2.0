@@ -14,7 +14,11 @@ The followings are improved from the previous version:
 
 The followings are improved from the previous version:
 
-
+* Introduce several new variants like ``blockCache``.
+* Introduce ``validatorChain`` and ``proposerChain`` for verify the correctness.
+* Original ``fsm`` procedure is replaced with ``addSig`` procedure.
+* A process is implemented to simulate the FSM, which can be executed nondeterministically among four validators.
+* A process is implemented to simulate the proposer broadcasting its new block.
 
 ## LBFT2
 
