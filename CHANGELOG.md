@@ -4,6 +4,11 @@
 
 The followings are improved from the previous version:
 
+* Multiple variants are now defined as CONSTANTS.
+* Several ASSUME statements are also applied for constrain these CONSTANTS.
+* ``Quorum`` is introduced as CONSTANTS.
+* The implementation of certificates are changed to use ``Quorums``. 
+
 
 ## LBFT4
 
