@@ -11,9 +11,9 @@ However, an older version indicates it must contain some lack of consideration o
 
 Current settings:
 
-* 4 validators (i.e., f = 1)
-* 1 proposer
-* No impeachment
+* 4 validators (i.e., f = 1).
+* 1 proposer.
+* No impeachment.
 
 A CHANGELOG is updated on explaining the difference between versions.
 
