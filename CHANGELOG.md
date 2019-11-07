@@ -7,7 +7,7 @@ The followings are improved from the previous version:
 * Multiple variants are now defined as CONSTANTS.
 * Several ASSUME statements are also applied to constrain these CONSTANTS.
 * ``Quorum`` is introduced as CONSTANTS.
-* The implementation of certificates are changed to use ``Quorums``. 
+* The implementation of certificates are changed to use ``Quorum``s. 
 
 
 ## LBFT4
@@ -16,7 +16,7 @@ The followings are improved from the previous version:
 
 * Change the validator simulators from ``process`` to ``fair+ process``.
 * Change the index of ``blockReceiver`` from ``validators`` to ``validators \X possibleHeight``.
-	* It is for furture version where multiple proposers are applied.
+	* It is for furture versions where multiple proposers are applied.
 
 ## LBFT3
 
@@ -25,7 +25,7 @@ The followings are improved from the previous version:
 * Introduce several new variants like ``blockCache``.
 * Introduce ``validatorChain`` and ``proposerChain`` for verify the correctness.
 * Original ``fsm`` procedure is replaced with ``addSig`` procedure.
-* A process is implemented to simulate the FSM, which can be executed nondeterministically among four validators.
+* A process is implemented to simulate the FSM, which can be executed non-deterministically among four validators.
 * A process is implemented to simulate the proposer broadcasting its new block.
 
 ## LBFT2
