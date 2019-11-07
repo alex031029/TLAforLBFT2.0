@@ -9,6 +9,6 @@ The latest version (i.e., the one with largest *i*) may not be executed without 
 In priciple, All older version should terminate without raising any error. 
 However, an older version indicates it must contain some lack of consideration or logic. 
 
-And I will update the CHANGELOG later on explaining the difference between versions.
+A CHANGELOG is updated on explaining the difference between versions.
 
 Shi Yanchen
